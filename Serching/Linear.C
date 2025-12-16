@@ -33,7 +33,7 @@ void main()
 
 	}
 
-	if(a[i]!=num)
+	if(i == 5)
 	{
 		printf("\n %d is not found",num);
 	}
@@ -41,3 +41,4 @@ void main()
 	getch();
 
 }
+
