@@ -1,7 +1,7 @@
 /*
 This program sort numbers based on Bubble sorting
 Author: Adityasinh Sodha
-Date: 10th Dec 2025
+Date: 11th Dec 2025
 */
 #include<stdio.h>
 #include<conio.h>
@@ -24,14 +24,14 @@ void main()
 	for(i=0; i<=3; i++)
 	{
 		// Inner loop
-		for(j=0; j<=3-i; j++)
+		for(j=1; j <= 4-i; j++)
 		{
 			// Interchange
-			if(a[j] > a[j+1])
+			if(a[j-1] > a[j])
 			{
-				k = a[j];
-				a[j] = a[j+1];
-				a[j+1] = k;
+				k = a[j-1];
+				a[j-1] = a[j];
+				a[j] = k;
 			}
 
 		}
