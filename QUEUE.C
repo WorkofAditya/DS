@@ -1,7 +1,7 @@
 /*
-This program use stack to INSERT DISPLAY and DELETE values of an array
+This program use Queue to INSERT DISPLAY and DELETE values of an array
 Author: Adityasinh Sodha
-Date: 22th Dec 2025
+Date: 29th Dec 2025
 */
 #include<stdio.h>
 #include<conio.h>
@@ -88,14 +88,3 @@ void main()
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
